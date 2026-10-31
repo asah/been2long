@@ -1,0 +1,12 @@
+{
+  "name": "been2long-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix web run dev",
+    "start": "npm --prefix web start",
+    "check": "npm --prefix web run check",
+    "test": "npm --prefix web test",
+    "build": "npm --prefix web run build",
+    "build:standalone": "node web/scripts/build-standalone.mjs"
+  }
+}
