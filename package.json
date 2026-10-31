@@ -1,12 +1,8 @@
 {
-  "name": "been2long-workspace",
+  "name": "been2long",
   "private": true,
   "scripts": {
-    "dev": "npm --prefix web run dev",
-    "start": "npm --prefix web start",
-    "check": "npm --prefix web run check",
-    "test": "npm --prefix web test",
-    "build": "npm --prefix web run build",
-    "build:standalone": "node web/scripts/build-standalone.mjs"
+    "dev": "python3 -m http.server 3000 --bind 127.0.0.1",
+    "start": "python3 -m http.server 3000 --bind 127.0.0.1"
   }
 }
